@@ -1,0 +1,11 @@
+<main id="classes">
+    {{#each class }}
+    <form action="bookNow" method="POST">
+        <h1>{{this.className}}</h1>
+        <img src={{this.imgName}}>
+        <p>{{this.lengthOfClass}} minutes</p>
+        <p>price: ${{this.price}}</p>
+        <button type="submit" name="bookedClass" value={{this.className}}>Book Now</button>
+    </form>
+    {{/each}}
+</main>

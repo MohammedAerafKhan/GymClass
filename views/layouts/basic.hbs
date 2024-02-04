@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            {{!-- loggedIn becomes true only when we log in through the loginendpoint or creatAcc endpoint --}}
+            {{#if loggedIn}}  
+            <li><a href="logout">Logout</a></li>
+            {{else}}
+            <li><a href="/">Login</a></li>
+            {{/if}}
+            <li><a href="classes">Schedule page</a></li>
+            <li><a href="cartpage">Cart Page</a></li>
+            <li><a href="adminpage">Admin page</a></li>
+        </ul>
+    </nav>
+
+    {{{body}}}
+</body>
+</html>

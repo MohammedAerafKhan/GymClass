@@ -1,0 +1,19 @@
+{
+  "name": "a3mohammedaeraf",
+  "version": "1.0.0",
+  "description": "Aeraf's Gym",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Mohammed Aeraf Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.3"
+  }
+}

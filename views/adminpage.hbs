@@ -1,0 +1,18 @@
+<main id="adminpage">
+    {{#if loggedInAdmin}}
+        <h1>Welcome Admin!</h1>
+
+        {{#each payments}}
+            <section>
+                <p>Payment made by: {{this.username}}</p>
+                <p>Name of the Class: {{this.className}}</p>
+                <p>Subtotal: {{this.priceBeforeTax}}</p>
+                <p>Total paid: {{this.TotalAmtPaid}}</p>
+                <p>date: {{this.dateCreated}}</p>
+            </section>
+        {{/each}}
+
+    {{else}}
+        <h1>You must be logged in as an admin to view this page!</h1>
+    {{/if}}
+</main>

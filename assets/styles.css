@@ -1,0 +1,139 @@
+/* template styling */
+
+nav {
+    background-color: rgb(51, 51, 51);
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+/* to all hbs */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Classes styling */
+#classes {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+  
+#classes form {
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+}
+  
+#classes form > h1 {
+    font-size: 26px;
+    margin: 0;
+}
+  
+#classes form > img {
+    max-width: 100%;
+}
+  
+#classes form > p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+  
+#classes form > button {
+    background-color: rgb(51, 51, 51);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Login styling */
+
+#loginpage {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#loginpage form > input {
+    width: 97%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#loginpage form > button {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+#loginpage form > button:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+/* cartpage styling */
+
+#cartpage {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+    text-align: center;
+}
+
+#cartpage > section{
+    padding-left: 15px;
+    border-bottom: 2px solid darkgray;
+}
+
+/* admin styling */
+
+#adminpage {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+    text-align: center;
+}
+
+#adminpage > section{
+    padding-left: 15px;
+    border-bottom: 2px solid darkgray;
+}
